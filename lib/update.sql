@@ -1,3 +1,3 @@
 UPDATE characters SET species = "Martian" 
 WHERE 
-SORT BY id = MAX(id);
+ORDER BY id = MAX(id);
