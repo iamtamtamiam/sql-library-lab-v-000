@@ -1,6 +1,6 @@
 CREATE TABLE series (
     id INTEGER PRIMARY KEY,
-    name TEXT,
-    age INTEGER,
+    title TEXT,
+    author_id TEXT,
     breed TEXT
 );
