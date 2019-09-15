@@ -26,6 +26,6 @@ CREATE TABLE chartacters (
   id INTEGER PRIMARY KEY, 
   name TEXT,
   species TEXT,
-  motto TEXT, 
-  author_id INTEGER, 
+  motto TEXT,
+  author_id INTEGER 
 );
