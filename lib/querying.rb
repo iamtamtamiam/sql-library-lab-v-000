@@ -17,8 +17,7 @@ end
 def select_value_and_count_of_most_prolific_species
   "SELECT character.species, COUNT(characters.species)
     FROM characters
-    WHERE series.id = 1 
-    ORDER BY books.year ASC;"
+    ORDER BY COUNT(character.species) DESC LIMIT 1;"
 end
 
 def select_name_and_series_subgenres_of_authors
